@@ -39,7 +39,9 @@ export default [
   },
   {
     files: ['*.ts', '*.tsx'],
-    parser: typescriptEslintParser,
+    languageOptions: {
+      parser: typescriptEslintParser,
+    },
     plugins: {
       '@typescript-eslint': typescriptEslintPlugin,
     },
