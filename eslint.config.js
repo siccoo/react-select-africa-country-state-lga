@@ -3,6 +3,7 @@ import eslintPluginReact from 'eslint-plugin-react'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
 import typescriptEslintParser from '@typescript-eslint/parser'
 import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin'
+import eslintConfigPrettier from 'eslint-config-prettier'
 
 export default [
   {
@@ -26,14 +27,6 @@ export default [
       react: eslintPluginReact,
       'react-hooks': eslintPluginReactHooks,
     },
-    extends: [
-      'prettier',
-      'plugin:prettier/recommended',
-      'eslint:recommended',
-      'plugin:react/recommended',
-      'plugin:@typescript-eslint/eslint-recommended',
-      'plugin:@typescript-eslint/recommended',
-    ],
     rules: {
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
@@ -41,6 +34,23 @@ export default [
       '@typescript-eslint/ban-ts-comment': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       'prettier/prettier': 'error',
+      ...eslintConfigPrettier.rules,
     },
+  },
+  {
+    files: ['*.ts', '*.tsx'],
+    parser: typescriptEslintParser,
+    plugins: {
+      '@typescript-eslint': typescriptEslintPlugin,
+    },
+    rules: {},
+  },
+  {
+    files: ['*.js', '*.jsx'],
+    plugins: {
+      react: eslintPluginReact,
+      'react-hooks': eslintPluginReactHooks,
+    },
+    rules: {},
   },
 ]
