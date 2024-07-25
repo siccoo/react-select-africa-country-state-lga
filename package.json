@@ -2,13 +2,18 @@
   "name": "react-select-africa-country-state-lga",
   "version": "1.0.0",
   "description": "A React Select library for the Regions of Africa to get the Countries, States or Regions or Province, LGA's of the selected ",
-  "main": "index.js",
-  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "test": "jest --config jestconfig.json"
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run prettier && npm run lint"
   },
   "repository": {
     "type": "git",
@@ -27,13 +32,22 @@
     "React-component",
     "Capital"
   ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "ReadME.md"
+  ],
   "author": "Chilaka Michael Obinna",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/siccoo/react-select-africa-country-state-lga/issues"
   },
   "homepage": "https://github.com/siccoo/react-select-africa-country-state-lga#readme",
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.3.3",
