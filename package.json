@@ -1,0 +1,39 @@
+{
+  "name": "react-select-africa-country-state-lga",
+  "version": "1.0.0",
+  "description": "A React Select library for the Regions of Africa to get the Countries, States or Regions or Province, LGA's of the selected ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siccoo/react-select-africa-country-state-lga.git"
+  },
+  "keywords": [
+    "Africa",
+    "Region",
+    "Country",
+    "State",
+    "Province",
+    "Local",
+    "Government",
+    "Area",
+    "LGA",
+    "React-component",
+    "Capital"
+  ],
+  "author": "Chilaka Michael Obinna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siccoo/react-select-africa-country-state-lga/issues"
+  },
+  "homepage": "https://github.com/siccoo/react-select-africa-country-state-lga#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-select-africa-country-state-lga": "./",
+    "typescript": "^5.5.4"
+  }
+}
