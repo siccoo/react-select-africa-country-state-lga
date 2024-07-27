@@ -38,4 +38,4 @@ jobs:
           ### Before committing any changes, don’t forget to run the following command:
           # `yarn prepublishOnly`
           # We need this to our NPM account
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKENS }}
