@@ -5,7 +5,14 @@ A React Select library for Africa starting from the Regions, Countries, States t
 [![NPM version][npm-image]][npm-url] 
 [![Build][github-build]][github-build-url] 
 ![npm-typescript] 
-[![License][github-license]][github-license-url] 
+[![License][github-license]][github-license-url]
+
+# my-react-typescript-package
+
+[![NPM version][npm-image]][npm-url]
+[![Build][github-build]][github-build-url]
+![npm-typescript]
+[![License][github-license]][github-license-url]
 
 <!-- [![NPM](https://img.shields.io/npm/v/react-select-africa-country-state-lga.svg)](https://www.npmjs.com/package/react-select-africa-country-state-lga) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) -->
 
@@ -17,8 +24,13 @@ Live demo: [https://siccoo.github.io/react-select-africa-country-state-lga/]
 ## Installation
 
 ```
-yarn add react-select-africa-country-state-lga
 npm install react-select-africa-country-state-lga --save
+```
+
+or
+
+```
+yarn add react-select-africa-country-state-lga
 ```
 
 ## Usage
