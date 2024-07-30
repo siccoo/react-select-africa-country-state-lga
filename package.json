@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/siccoo/react-select-africa-country-state-lga#readme",
   "peerDependencies": {
-    "react": ">=18"
+    "react": ">=16"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
