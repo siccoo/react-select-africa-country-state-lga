@@ -1,8 +1,8 @@
 {
-  "extends": "@parcel/config-default",
-  "transformers": {
+	"extends": "@parcel/config-default",
+    "transformers": {
     "*.html": ["@parcel/transformer-html"],
-    "*.js": ["@parcel/transformer-babel"],
+    "*.tsx": ["@parcel/transformer-typescript-tsc"],
     "*.ts": ["@parcel/transformer-typescript-tsc"]
   }
 }
