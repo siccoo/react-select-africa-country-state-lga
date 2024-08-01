@@ -8,7 +8,7 @@
             "currency": "EGP",
             "capital": "Cairo",
             "phoneCode": "+20",
-            "flag": "egypt.png",
+            "flag": "../../flags/egypt.svg",
             "iso": "EG",
             "states": [
               {
@@ -26,7 +26,7 @@
             "currency": "LYD",
             "capital": "Tripoli",
             "phoneCode": "+218",
-            "flag": "libya.png",
+            "flag": "../../flags/libya.svg",
             "iso": "LY",
             "states": [
               {
@@ -49,7 +49,7 @@
             "currency": "NGN",
             "capital": "Abuja",
             "phoneCode": "+234",
-            "flag": "nigeria.png",
+            "flag": "../../flags/nigeria.svg",
             "iso": "NG",
             "states": [
               {
@@ -67,7 +67,7 @@
             "currency": "GHS",
             "capital": "Accra",
             "phoneCode": "+233",
-            "flag": "ghana.png",
+            "flag": "../../flags/ghana.svg",
             "iso": "GH",
             "states": [
               {
@@ -90,7 +90,7 @@
             "currency": "KES",
             "capital": "Nairobi",
             "phoneCode": "+254",
-            "flag": "kenya.png",
+            "flag": "../../flags/kenya.svg",
             "iso": "KE",
             "states": [
               {
@@ -108,7 +108,7 @@
             "currency": "TZS",
             "capital": "Dodoma",
             "phoneCode": "+255",
-            "flag": "tanzania.png",
+            "flag": "../../flags/tanzania.svg",
             "iso": "TZ",
             "states": [
               {
@@ -131,7 +131,7 @@
             "currency": "XAF",
             "capital": "Yaoundé",
             "phoneCode": "+237",
-            "flag": "cameroon.png",
+            "flag": "../../flags/cameroon.svg",
             "iso": "CM",
             "states": [
               {
@@ -149,7 +149,7 @@
             "currency": "XAF",
             "capital": "Libreville",
             "phoneCode": "+241",
-            "flag": "gabon.png",
+            "flag": "../../flags/gabon.svg",
             "iso": "GA",
             "states": [
               {
@@ -172,7 +172,7 @@
             "currency": "ZAR",
             "capital": "Pretoria",
             "phoneCode": "+27",
-            "flag": "south-africa.png",
+            "flag": "../../flags/south-africa.svg",
             "iso": "ZA",
             "states": [
               {
@@ -190,7 +190,7 @@
             "currency": "NAD",
             "capital": "Windhoek",
             "phoneCode": "+264",
-            "flag": "namibia.png",
+            "flag": "../../flags/namibia.svg",
             "iso": "NA",
             "states": [
               {
