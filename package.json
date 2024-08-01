@@ -1,6 +1,6 @@
 {
   "name": "react-select-africa-country-state-lga",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "A React Select library for the Regions of Africa to get the Countries, States or Regions or Province, LGA's of the selected ",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
