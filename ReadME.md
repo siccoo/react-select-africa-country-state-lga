@@ -7,8 +7,6 @@ A React Select library for Africa starting from the Regions, Countries, States t
 ![npm-typescript] 
 [![License][github-license]][github-license-url]
 
-<!-- [![NPM](https://img.shields.io/npm/v/react-select-africa-country-state-lga.svg)](https://www.npmjs.com/package/react-select-africa-country-state-lga) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) -->
-
 
 ## Demo and Example
 
@@ -27,6 +25,10 @@ yarn add react-select-africa-country-state-lga
 ```
 
 ## Usage
+
+## Contribution
+
+This project is written in majorly Typescript, raise a pull request with your changes.
 
 ## License
 
