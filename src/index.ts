@@ -1,3 +1,3 @@
-import { App } from './components'
+import { App } from "./components";
 
-export { App }
+export { App };
