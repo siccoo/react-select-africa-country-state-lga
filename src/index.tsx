@@ -1,3 +1,5 @@
+/// <reference types="@rsbuild/core/types" />
+
 import React from 'react'
 import styles from './styles.module.css'
 import data from './data'
