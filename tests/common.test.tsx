@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
-import { ReactSelectAfricaCountryStateLga } from './ReactSelectAfricaCountryStateLga'
+import { ReactSelectAfricaCountryStateLga } from '../src/index'
 
 // Mock data for the test
 const mockData = {
