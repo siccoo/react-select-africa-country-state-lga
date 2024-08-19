@@ -53,6 +53,22 @@ export default {
           iso: 'NG',
           states: [
             {
+              name: 'Abia',
+              lgas: ['Aba North', 'Aba South', 'Arochukwu', 'Bende', 'Ikwuano', 'Isiala Ngwa North', 'Isiala Ngwa South', 'Isuikwuato', 'Obi Ngwa', 'ohafia', 'Osisisioma', 'Ugwunagbo', 'Ukwa East', 'Ukwa West', 'Umuahia North', 'Umuahia South', 'Umu Nneochi']
+            },
+            {
+              name: 'Adamawa',
+              lgas: ['Demsa', 'Fufure', 'Ganye', 'Guyuk', 'Girei', 'Gombi', 'Hong', 'Jade', 'Lamurde', 'Madagali', 'Maiha', 'Mayo Belwa', 'Michika', 'Mubi North', 'Mubi South', 'Mubi North', 'Numan', 'Shelleng', 'Song', 'Toungo', 'Yola North', 'Yola South']
+            },
+            {
+              name: 'Akwa Ibom',
+              lgas: ['Abak', 'Eastern Obolo', 'Eket', 'Esit Eket', 'Essien Udim', 'Etim Ekpo', 'Etinan', 'Ibeno', 'Ibesikpo Asutan', 'Ibiono-Ibom', 'Ika', 'Ikono', 'Abasi', 'Ikot Ekpene', 'Ini', 'Itu', 'Mbo', 'Mkpat-Enin', 'Nsit-Atai', 'Nsit-Ibom', 'Nsit-Ubium', 'Obot Akara', 'Okobo', 'Onna', 'Oron', 'Oruk Anam', 'Udung-Uko', 'Ukanafun', 'Uruan', 'Urue-Offong/Oruko', 'Uyo']
+            },
+            {
+              name: 'Anambra',
+              lgas: ['Aguata', 'Anambra East', 'Anambra West', 'Anaocha', 'Awka North', 'Awka South', 'Ayamelum', 'Dunukofia', 'Ekwusigo', 'Idemili North', 'Idemili South', 'Ihiala', 'Njikoka', 'Nnewi North', 'Nnewi South', 'Ogbaru', 'Onitsha North', 'Onitsha South','Orumba North', 'Orumba South', 'oyi' ]
+            },
+            {
               name: 'Lagos',
               lgas: ['LGA9', 'LGA10'],
             },
