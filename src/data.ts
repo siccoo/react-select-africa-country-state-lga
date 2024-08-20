@@ -54,11 +54,11 @@ export default {
           states: [
             {
               name: 'Abia',
-              lgas: ['Aba North', 'Aba South', 'Arochukwu', 'Bende', 'Ikwuano', 'Isiala Ngwa North', 'Isiala Ngwa South', 'Isuikwuato', 'Obi Ngwa', 'ohafia', 'Osisisioma', 'Ugwunagbo', 'Ukwa East', 'Ukwa West', 'Umuahia North', 'Umuahia South', 'Umu Nneochi']
+              lgas: ['Aba North', 'Aba South', 'Arochukwu', 'Bende', 'Ikwuano', 'Isiala Ngwa North', 'Isiala Ngwa South', 'Isuikwuato', 'Obi Ngwa', 'Ohafia', 'Osisioma', 'Ugwunagbo', 'Ukwa East', 'Ukwa West', 'Umuahia North', 'Umuahia South', 'Umu Nneochi']
             },
             {
               name: 'Adamawa',
-              lgas: ['Demsa', 'Fufure', 'Ganye', 'Guyuk', 'Girei', 'Gombi', 'Hong', 'Jade', 'Lamurde', 'Madagali', 'Maiha', 'Mayo Belwa', 'Michika', 'Mubi North', 'Mubi South', 'Mubi North', 'Numan', 'Shelleng', 'Song', 'Toungo', 'Yola North', 'Yola South']
+              lgas: ['Demsa', 'Fufure', 'Ganye', 'Guyuk', 'Girei', 'Gombi', 'Hong', 'Jade', 'Lamurde', 'Madagali', 'Maiha', 'Mayo Belwa', 'Michika', 'Mubi North', 'Mubi South', 'Numan', 'Shelleng', 'Song', 'Toungo', 'Yola North', 'Yola South']
             },
             {
               name: 'Akwa Ibom',
@@ -66,7 +66,7 @@ export default {
             },
             {
               name: 'Anambra',
-              lgas: ['Aguata', 'Anambra East', 'Anambra West', 'Anaocha', 'Awka North', 'Awka South', 'Ayamelum', 'Dunukofia', 'Ekwusigo', 'Idemili North', 'Idemili South', 'Ihiala', 'Njikoka', 'Nnewi North', 'Nnewi South', 'Ogbaru', 'Onitsha North', 'Onitsha South','Orumba North', 'Orumba South', 'oyi' ]
+              lgas: ['Aguata', 'Anambra East', 'Anambra West', 'Anaocha', 'Awka North', 'Awka South', 'Ayamelum', 'Dunukofia', 'Ekwusigo', 'Idemili North', 'Idemili South', 'Ihiala', 'Njikoka', 'Nnewi North', 'Nnewi South', 'Ogbaru', 'Onitsha North', 'Onitsha South','Orumba North', 'Orumba South', 'Oyi' ]
             },
             {
               name: 'Lagos',
